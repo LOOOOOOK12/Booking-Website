@@ -8,9 +8,13 @@ function NavBar() {
             <h1>Nav</h1>
             <ul className='Link'>
                 <Link to="/Home" className='Links'>Home</Link>
-                <Link to="/Book" className='Links'>Book</Link>
+                <Link to="/About" className='Links'>About Us</Link>
+                <Link to="/Blogs" className='Links'>Blogs</Link>
+                <Link to="/Services" className='Links'>Services</Link>
                 <Link to="/Contacts" className='Links'>Contacts</Link>
+                
             </ul>
+            <Link to="/Book" className='Links'><button className='Book'>Book Now</button></Link>
         </NavStyles>
     )
 }
