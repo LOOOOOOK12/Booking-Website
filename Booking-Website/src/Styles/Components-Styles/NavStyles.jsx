@@ -18,11 +18,13 @@ const NavStyles = styled.div`
             ul{
                 color: black;
                 display: flex;
+               
                 flex-direction: row;
             }
 
             .Links{
                 color: black;
+                margin: 0 3rem;
                 text-decoration: none;
             }
 `
