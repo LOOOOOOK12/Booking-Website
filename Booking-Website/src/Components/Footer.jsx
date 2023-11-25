@@ -1,10 +1,11 @@
 import React from 'react'
+import FooterStyles from '../Styles/Components-Styles/FooterStyles'
 
 function Footer() {
     return (
-        <div>
+        <FooterStyles>
             <h1>Footer</h1>
-        </div>
+        </FooterStyles>
     )
 }
 
