@@ -17,8 +17,7 @@ const NavStyles = styled.div`
 
             ul{
                 color: black;
-                display: flex;
-               
+                display: flex; 
                 flex-direction: row;
             }
 
