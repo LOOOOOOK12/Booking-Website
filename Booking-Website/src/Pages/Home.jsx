@@ -10,6 +10,9 @@ function Home() {
                 <div className='Container'>
                     <h1>Home Page</h1>
                 </div>
+                <section></section>
+                <section></section>
+                <section></section>
             <Footer/>
         </HomeStyles>
     )
