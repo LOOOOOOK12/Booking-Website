@@ -26,5 +26,12 @@ const NavStyles = styled.div`
                 margin-right:3rem;
                 text-decoration: none;
             }
+            .Book{
+                color: white;
+                padding: .9rem 1.3rem;
+                border-radius: 8px;
+                background: #0D1321;
+                border: #0D1321 2px solid;
+            }
 `
 export default NavStyles
