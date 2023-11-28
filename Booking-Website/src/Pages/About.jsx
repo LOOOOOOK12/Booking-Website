@@ -1,14 +1,17 @@
 import React from 'react'
 import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
+import AboutStyles from '../Styles/Pages-Styles/AboutStyles'
 
 function About() {
     return (
-        <div>
+        <AboutStyles>
             <NavBar/>
-                <h1>About</h1>
+            <div className='Container'>
+                <h1>About Page</h1>
+            </div>
             <Footer/>
-        </div>
+        </AboutStyles>
     )
 }
 
