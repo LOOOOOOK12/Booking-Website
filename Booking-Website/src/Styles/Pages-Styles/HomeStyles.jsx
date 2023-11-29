@@ -5,12 +5,13 @@ const HomeStyles = styled.div`
     position: relative;
 
     .Container{
-        height: 93vh;
+        height: 90vh;
         display: flex;
         align-items: center;
         justify-content: center;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url("src/assets/pexels-arkkrapol-anantachote-1571746.jpg");
         background-size: cover;
+        object-fit: cover;
         background-repeat: no-repeat;
         position: relative;
     }
@@ -25,6 +26,7 @@ const HomeStyles = styled.div`
     }
     .Japan{
         font-size: 70px;
+        font-weight: 700;
         margin-bottom: 2rem;
         color: #DDDDDD;
     }
@@ -47,7 +49,7 @@ const HomeStyles = styled.div`
         align-items: center;
         justify-content: center;
         gap:3rem ;
-        top: 650px;
+        top: 645px;
         width: 882px;
         height: 129px;
         border-radius: 8px;
@@ -58,8 +60,10 @@ const HomeStyles = styled.div`
     }
 
     .Check{
+        font-size: 20px;
+        font-weight: 200;
         color: #ECECEC;
-        padding: 1.5rem 2rem;
+        padding: 1.2rem 1.8rem;
         background: #0D1321;
         border: none;
         border-radius: 8px;
