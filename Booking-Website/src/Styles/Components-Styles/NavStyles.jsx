@@ -2,19 +2,25 @@ import styled from 'styled-components'
 
 
 const NavStyles = styled.div`
-            height: 40px;
-            top: 0;
-            z-index: 15;
-            width: 90%;
-            position: fixed;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            text-align: center;
-            padding: 1rem 5%;
-            transition: 0.5s;
-            background: #F0EBD8;
+            width: 100%;
 
+            nav{
+                height: 70px;
+                width: 100%;
+                top: 0;
+                z-index: 15;
+                position: fixed;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                text-align: center;
+                transition: 0.5s;
+                background: #F0EBD8;
+            }
+            nav h1{
+                font-size: 35px;
+                font-weight: 400;
+            }
             ul{
                 color: black;
                 display: flex; 
