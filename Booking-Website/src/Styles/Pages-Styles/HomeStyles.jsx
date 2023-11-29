@@ -5,7 +5,7 @@ const HomeStyles = styled.div`
     position: relative;
 
     .Container{
-        height: 92vh;
+        height: 93vh;
         display: flex;
         align-items: center;
         justify-content: center;
