@@ -33,5 +33,8 @@ const NavStyles = styled.div`
                 background: #0D1321;
                 border: #0D1321 2px solid;
             }
+            h1{
+                color: black;
+            }
 `
 export default NavStyles
