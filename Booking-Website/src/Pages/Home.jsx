@@ -3,6 +3,7 @@ import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
 import HomeStyles from '../Styles/Pages-Styles/homeStyles'
 
+
 function Home() {
     return (
         <HomeStyles>
