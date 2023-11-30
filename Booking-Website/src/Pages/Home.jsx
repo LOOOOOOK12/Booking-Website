@@ -15,7 +15,9 @@ function Home() {
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         </p> 
                     </div>
-                    <div className='availability'>
+                </div>
+                <div className='availability'>
+                    <div className='availability-container'>
                         <div className='location'>
                             <p>Location</p>
                             <p>lobot</p>
