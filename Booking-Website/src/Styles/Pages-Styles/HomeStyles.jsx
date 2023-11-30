@@ -9,8 +9,10 @@ const HomeStyles = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url("src/assets/pexels-arkkrapol-anantachote-1571746.jpg");
         background-size: cover;
+        background-position: center;
         object-fit: cover;
         background-repeat: no-repeat;
         position: relative;
@@ -43,15 +45,22 @@ const HomeStyles = styled.div`
     }
 
     .availability{
-        background: #F0EBD8;
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .availability-container{
         position: absolute;
+        z-index: 55;
+        background: #F0EBD8;
         display: flex;
         align-items: center;
         justify-content: center;
         gap:3rem ;
-        top: 645px;
-        width: 882px;
-        height: 129px;
+        padding: .7rem 3rem;
         border-radius: 8px;
     }
 
