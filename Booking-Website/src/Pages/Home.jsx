@@ -2,7 +2,8 @@ import React from 'react'
 import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
 import HomeStyles from '../Styles/Pages-Styles/homeStyles'
-
+import Image1 from '../assets/pexels-evgeny-tchebotarev-2187604.jpg'
+import {Link} from 'react-router-dom'
 
 function Home() {
     return (
@@ -20,25 +21,36 @@ function Home() {
                     <div className='availability-container'>
                         <div className='location'>
                             <p>Location</p>
-                            <p>lobot</p>
+                            <p>Kyoto</p>
+                            
                         </div>
+                        <div className='vl'></div>
                         <div className='person'>
-                            <p>Location</p>
-                            <p>lobot</p>
+                            <p>Person</p>
+                            <p>03</p>
                         </div>
+                        <div className='vl'></div>
                         <div className='check-in'>
-                            <p>Location</p>
-                            <p>lobot</p>
+                            <p>Check-In</p>
+                            <p>May 12, 2023</p>
                         </div>
+                        <div className='vl'></div>
                         <div className='check-out'>
-                            <p>Location</p>
-                            <p>lobot</p>
+                            <p>Check-Out</p>
+                            <p>May 25, 2023</p>
                         </div>
-                        <button className='Check'> Check Availability</button>
+                        <Link to="/Book"><button className='Check'> Check Availability</button></Link>
                     </div>
                 </div>
                 <section className='Container2'>
-                    <h1>Lobot</h1>
+                    <img src={Image1} alt="Image 1" />
+                    <div className='Text-1'>
+                        <h2>Lorem</h2>
+                        <hr />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Earum, quia nam dolore maiores fugiat provident, distinctio incidunt.
+                        </p>
+                    </div>
                 </section>
                 <section></section>
                 <section></section>
