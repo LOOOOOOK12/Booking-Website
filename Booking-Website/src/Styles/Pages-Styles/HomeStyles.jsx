@@ -13,7 +13,6 @@ const HomeStyles = styled.div`
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url("src/assets/pexels-arkkrapol-anantachote-1571746.jpg");
         background-size: cover;
         background-position: center;
-        object-fit: cover;
         background-repeat: no-repeat;
         position: relative;
     }
@@ -54,13 +53,12 @@ const HomeStyles = styled.div`
 
     .availability-container{
         position: absolute;
-        z-index: 55;
         background: #F0EBD8;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap:3rem ;
-        padding: .7rem 3rem;
+        gap:2rem ;
+        padding: .7rem 2.5rem;
         border-radius: 8px;
     }
 
@@ -68,19 +66,34 @@ const HomeStyles = styled.div`
         color: black;
     }
 
+    .vl{
+        height: 4rem;
+        width: .1rem;
+        background: black;
+    }
+
     .Check{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 200;
         color: #ECECEC;
-        padding: 1.2rem 1.8rem;
+        padding: 1.2rem 1.5rem;
         background: #0D1321;
         border: none;
         border-radius: 8px;
     }
 
     .Container2{
-        padding: 8rem 0;
+        padding: 5rem 6rem;
+        gap:3rem;
         height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Container2 img{
+        height: 30rem;
+        width: 30rem;
     }
     
 `
