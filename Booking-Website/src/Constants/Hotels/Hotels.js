@@ -9,7 +9,7 @@ export const Hotels = [
         cost: "$150 per night",
         wifi: "Free Wifi",
         service: "Breakfast, Lunch Dinner",
-        bed: "1",
+        bed: "2 Bed",
         person: "Good for 2",
         style: hotelsContainerStyles
     },
@@ -19,7 +19,7 @@ export const Hotels = [
         cost: "$150 per night",
         wifi: "Free Wifi",
         service: "Breakfast, Lunch Dinner",
-        bed: "1",
+        bed: "1 Bed",
         person: "Good for 2",
         style: hotelsContainerStyles
     },
@@ -29,7 +29,7 @@ export const Hotels = [
         cost: "$150 per night",
         wifi: "Free Wifi",
         service: "Breakfast, Lunch Dinner",
-        bed: "1",
+        bed: "1 Bed",
         person: "Good for 2",
         style: hotelsContainerStyles
     },
