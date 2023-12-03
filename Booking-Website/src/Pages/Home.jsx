@@ -4,6 +4,8 @@ import Footer from '../Components/Footer'
 import HomeStyles from '../Styles/Pages-Styles/homeStyles'
 import Image1 from '../assets/pexels-evgeny-tchebotarev-2187604.jpg'
 import {Link} from 'react-router-dom'
+import HotelsContainer from '../Components/HotelsContainer'
+import { Hotels } from '../Constants/Hotels/Hotels'
 
 function Home() {
     return (
@@ -45,14 +47,38 @@ function Home() {
                 <section className='Container2'>
                     <img src={Image1} alt="Image 1" />
                     <div className='Text-1'>
-                        <h2>Lorem</h2>
+                        <h2>Lorem Ipsum</h2>
                         <hr />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Earum, quia nam dolore maiores fugiat provident, distinctio incidunt.
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         </p>
+                        <button className='readMore'>Read More</button>
                     </div>
                 </section>
-                <section></section>
+                <section className='hotel-Container'>
+                    <div className='Text2'>
+                        <h2>Hotels</h2>
+                        <hr />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                    </div>
+                    <div className='hotel-Front-Container'>
+                        {Hotels.map((infos,idx) =>(
+                            <div className='Hotels' key={idx}>
+                                <HotelsContainer
+                                    image={infos.image}
+                                    alt={infos.alt}
+                                    hotelName={infos.hotelName}
+                                    cost={infos.cost}
+                                    wifi={infos.wifi}
+                                    service={infos.service}
+                                    bed={infos.bed}
+                                    person={infos.person}
+                                    style={infos.style}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </section>
                 <section></section>
             <Footer/>
         </HomeStyles>
