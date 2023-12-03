@@ -3,7 +3,9 @@ import HomeSection3Styles from '../../Styles/SectionsStyles/HomeSectionsStyles/H
 
 function HomeSection3() {
     return (
-        <HomeSection3Styles>HomeSection3</HomeSection3Styles>
+        <HomeSection3Styles>
+            
+        </HomeSection3Styles>
     )
 }
 
