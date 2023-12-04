@@ -3,7 +3,8 @@ import styled from "styled-components";
 const HomeSection2Styles = styled.div`
     
         padding: 5rem 6rem;
-    
+        transition: ease .3s;
+
     h2{
         margin: 0;
         font-size: 50px;
@@ -29,6 +30,10 @@ const HomeSection2Styles = styled.div`
 
     .Hotels{
         display: flex;
+    }
+
+    .Hotels:hover{
+        background: #B8B8B8;
     }
 
 `
