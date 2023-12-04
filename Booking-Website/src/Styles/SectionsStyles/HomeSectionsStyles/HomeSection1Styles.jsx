@@ -27,7 +27,7 @@ const HomeSection1Styles = styled.div`
     }
 
     img{
-        height: 35rem;
+        height: 30rem;
         width: 35rem;
         border-radius: 8px;
     }
