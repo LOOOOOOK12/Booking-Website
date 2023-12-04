@@ -20,6 +20,7 @@ const NavStyles = styled.div`
             nav h1{
                 font-size: 35px;
                 font-weight: 400;
+                text-decoration: none;
             }
             ul{
                 color: black;
