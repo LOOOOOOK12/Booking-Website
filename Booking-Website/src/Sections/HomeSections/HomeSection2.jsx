@@ -28,7 +28,7 @@ function HomeSection2() {
                     </div>
                         ))}
                     </div>
-                </HomeSection2Styles>
+        </HomeSection2Styles>
     )
 }
 
