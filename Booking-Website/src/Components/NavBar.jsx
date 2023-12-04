@@ -6,7 +6,7 @@ function NavBar() {
     return (
         <NavStyles>
             <nav>
-                <h1>LOGO</h1>
+                <Link to="/Home" className='Links'><h1>LOGO</h1></Link> 
                 <ul className='Link'>
                     <Link to="/Home" className='Links'>Home</Link>
                     <Link to="/About" className='Links'>About Us</Link>
