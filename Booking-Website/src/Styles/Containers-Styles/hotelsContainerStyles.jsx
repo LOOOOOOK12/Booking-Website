@@ -9,6 +9,7 @@ const hotelsContainerStyles = styled.div`
     padding-bottom: 1.5rem;
     background: #CCCCCC;
     border-radius: .5rem;
+    transition: ease .3s;
 
     h3{
         margin: 1.5rem 0;
