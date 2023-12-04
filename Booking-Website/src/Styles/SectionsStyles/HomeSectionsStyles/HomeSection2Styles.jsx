@@ -11,6 +11,12 @@ const HomeSection2Styles = styled.div`
         color: #0D1321;
     }
     
+    hr{
+        background-color: #0D1321;
+        height: 2px;
+        border: none;
+    }
+
     .Text2{
         width: 30rem;
         margin-bottom: 3rem;
@@ -31,11 +37,6 @@ const HomeSection2Styles = styled.div`
     .Hotels{
         display: flex;
     }
-
-    .Hotels:hover{
-        background: #B8B8B8;
-    }
-
 `
 
 export default HomeSection2Styles
