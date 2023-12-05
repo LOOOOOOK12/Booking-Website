@@ -18,6 +18,7 @@ const NavStyles = styled.div`
                 background: #F0EBD8;
             }
             nav h1{
+                margin: 0px;
                 font-size: 35px;
                 font-weight: 400;
                 text-decoration: none;
