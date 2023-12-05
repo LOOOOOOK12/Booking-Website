@@ -6,11 +6,11 @@ function ReviewsContainer({spot, alt, comment, profilePic, customerName, role, s
 
     return (
         <StyledReview>
-            <div className='comment-Container'>
-                <div className = 'Title'>
+            <div className = 'Title'>
                     <h2>Travelers Reviews</h2>
                     <hr />
                 </div>
+            <div className='comment-Container'>
                 <div className='comment-Text'>
                     <p className='comment'>{comment}</p>
                     <div className='profile'>
@@ -21,8 +21,9 @@ function ReviewsContainer({spot, alt, comment, profilePic, customerName, role, s
                         </div>
                     </div>
                 </div>
+                <img src={spot} alt={alt} className='spot'/>
             </div>
-            <img src={spot} alt={alt} className='spot'/>
+            
         </StyledReview>
     )
 }

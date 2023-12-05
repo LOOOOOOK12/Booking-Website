@@ -1,5 +1,5 @@
 import React from 'react'
-import Image1 from '../../assets/pexels-evgeny-tchebotarev-2187604.jpg'
+import Image1 from '../../assets/Home/pexels-evgeny-tchebotarev-2187604.jpg'
 import HomeSection1Styles from '../../Styles/SectionsStyles/HomeSectionsStyles/HomeSection1Styles'
 
 function HomeSection1() {

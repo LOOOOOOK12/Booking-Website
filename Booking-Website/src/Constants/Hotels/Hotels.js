@@ -1,4 +1,4 @@
-import hotelImage from '../../assets/pexels-amelia-hallsworth-5461604.jpg'
+import hotelImage from '../../assets/Hotels/pexels-amelia-hallsworth-5461604.jpg'
 import hotelsContainerStyles from '../../Styles/Containers-Styles/hotelsContainerStyles'
 
 export const Hotels = [

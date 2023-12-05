@@ -7,7 +7,10 @@ function HotelsContainer({image, alt, hotelName, cost, wifi, service, bed, perso
     return (
         <StyledHotel>           
             <img src={image} alt={alt} />
-            <h3>{hotelName}</h3>
+            <div className='HotelName'>
+                <h3>{hotelName}</h3>
+                <hr />
+            </div>
             <div className='Text-Hotels'>
                 <p>{cost}</p>
                 <p>{wifi}</p>
