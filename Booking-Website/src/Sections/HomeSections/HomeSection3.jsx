@@ -14,10 +14,10 @@ function HomeSection3() {
         <HomeSection3Styles>
             <Swiper 
             modules={[Autoplay]}
-            // autoplay = {{
-            // disableOnInteraction:false,
-            // delay: 5000
-            // }}
+            autoplay = {{
+            disableOnInteraction:false,
+            delay: 5000
+            }}
             loop
             id='Section3-Container'>
 

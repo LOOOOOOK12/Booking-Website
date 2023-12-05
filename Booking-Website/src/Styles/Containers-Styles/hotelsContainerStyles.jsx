@@ -12,6 +12,7 @@ const hotelsContainerStyles = styled.div`
     transition: ease .3s;
 
     h3{
+        font-size: 35px;
         margin: 1.5rem 0;
         color: #0D1321;
     }
@@ -19,7 +20,7 @@ const hotelsContainerStyles = styled.div`
     hr{
         background-color: #0D1321;
         height: 2px;
-        
+        margin: 0px;
     }
 
     .Text-Hotels{

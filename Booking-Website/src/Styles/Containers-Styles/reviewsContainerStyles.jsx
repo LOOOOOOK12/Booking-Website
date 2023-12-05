@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 const reviewsContainerStyles = styled.div`
     display: flex;
+    flex-direction: column;
     padding: 5rem 6rem;
-    align-items: center;
-    gap: 5rem;
 
     .comment-Container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
         justify-content: center;
     }
 
@@ -23,10 +23,11 @@ const reviewsContainerStyles = styled.div`
         color: #7B7B7B;
         font-weight: 300;
         margin-top: 50px;
+        margin-right: 65px;
     }
 
     .Title {
-        width: 100%;
+        width: 40%;
     }
 
     .profile{
@@ -38,7 +39,7 @@ const reviewsContainerStyles = styled.div`
 
     h2{
         color: #0D1321;
-        font-size: 50px;
+        font-size: 40px;
         margin: 0px;
     }
 
