@@ -25,6 +25,7 @@ const HomeStyles = styled.div`
         justify-content: center;
         width: 50%;
     }
+    
     .Japan{
         font-size: 70px;
         font-weight: 700;
@@ -39,7 +40,7 @@ const HomeStyles = styled.div`
     .Container p{
         font-weight: 100;
         margin: 0;
-        color: #F0EBD8;
+        color: #E9E9E9;
         font-size: 25px;
     }
     
