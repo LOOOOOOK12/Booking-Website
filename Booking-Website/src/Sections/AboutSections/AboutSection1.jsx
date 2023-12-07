@@ -12,15 +12,16 @@ function AboutSection1() {
             <div className='StoryContainer'>
                 <div className='OurStory'>
                     <h1>Our Story</h1>
+                    <hr />
                     <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore”
                     </p>
                 </div>
                 <div className='stories'>
                     <ol type="1">
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><h2>Lorem impsum</h2><p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”</p></li>
+                        <li><h2>Lorem impsum</h2><p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”</p></li>
+                        <li><h2>Lorem impsum</h2><p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”</p></li>
                     </ol>
                 </div>
             </div>
