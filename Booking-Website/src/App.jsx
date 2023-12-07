@@ -6,7 +6,7 @@ import Blogs from './Pages/Blogs'
 import Services from './Pages/Services'
 import About from './Pages/About'
 import './App.css'
-
+import "./index.css";
 
 function App() {
 

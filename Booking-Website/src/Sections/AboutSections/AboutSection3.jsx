@@ -6,7 +6,7 @@ function AboutSection3() {
     return (
         <AboutSection3Styles>
             <div className='Vision-Container'>
-                <h1>Our vision</h1>
+                <h1 className=''>Our vision</h1>
                 <hr />
                 <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore”s
