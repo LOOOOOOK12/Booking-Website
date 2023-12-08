@@ -1,5 +1,4 @@
 import React from 'react'
-import HomeSection3Styles from '../../Styles/SectionsStyles/HomeSectionsStyles/HomeSection3Styles'
 import ReviewsContainer from '../../Components/ReviewsContainer'
 import { Reviews } from '../../Constants/Reviews/Review'
 
@@ -11,7 +10,7 @@ import 'swiper/css/autoplay';
 
 function HomeSection3() {
     return (
-        <HomeSection3Styles>
+        <div className='flex items-center justify-center'>
             <Swiper 
             modules={[Autoplay]}
             autoplay = {{
@@ -19,7 +18,7 @@ function HomeSection3() {
             delay: 5000
             }}
             loop
-            id='Section3-Container'>
+            className='h-full w-full'>
 
             {Reviews.map((comments, idx)=>(
                     <SwiperSlide key={idx}>
@@ -35,7 +34,7 @@ function HomeSection3() {
                     </SwiperSlide>     
                 ))}
             </Swiper>
-        </HomeSection3Styles>
+        </div>
     )
 }
 
