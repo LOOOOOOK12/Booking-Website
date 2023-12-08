@@ -1,17 +1,18 @@
 import React from 'react'
 import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
-import ContactsStyles from '../Styles/Pages-Styles/ContactsStyles'
 
 function Contacts() {
     return (
-        <ContactsStyles>
+        <>
             <NavBar/>
-            <div className="Container">
-                <h1>Contacts Page</h1>
-            </div>
+                <div className='h-screen flex items-center justify-center'>
+                    <div className='Container'>
+                        <h1>Contacts Page</h1>
+                    </div>
+                </div> 
             <Footer/>
-        </ContactsStyles>
+        </>
     )
 }
 

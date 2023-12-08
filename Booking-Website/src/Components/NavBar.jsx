@@ -1,22 +1,21 @@
 import React from 'react'
-import NavStyles from '../Styles/Components-Styles/NavStyles'
 import {Link} from 'react-router-dom'
 
 function NavBar() {
     return (
-        <NavStyles>
-            <nav>
-                <Link to="/Home" className='Links'><h1>LOGO</h1></Link> 
-                <ul className='Link'>
-                    <Link to="/Home" className='Links'>Home</Link>
-                    <Link to="/About" className='Links'>About Us</Link>
-                    <Link to="/Blogs" className='Links'>Blogs</Link>
-                    <Link to="/Services" className='Links'>Services</Link>
-                    <Link to="/Contacts" className='Links'>Contacts</Link>  
+        <div className=' w-full'>
+            <nav className='h-20 w-full top-0 z-10 fixed flex justify-evenly items-center text-center bg-Bonay'> 
+                <Link to="/Home" className='text-3xl'><h1>LOGO</h1></Link> 
+                <ul className='flex flex-row'>
+                    <Link to="/Home" className='text-Rich-Black mr-12'>Home</Link>
+                    <Link to="/About" className='text-Rich-Black mr-12'>About Us</Link>
+                    <Link to="/Blogs" className='text-Rich-Black mr-12'>Blogs</Link>
+                    <Link to="/Services" className='text-Rich-Black mr-12'>Services</Link>
+                    <Link to="/Contacts" className='text-Rich-Black mr-12'>Contacts</Link>  
                 </ul>
-                <Link to="/Book" className='Links'><button className='Book'>Book Now</button></Link>
+                <Link to="/Book" className='Links'><button className='text-Puti px-6 py-3 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-75 font-light rounded-md'>Book Now</button></Link>
             </nav>
-        </NavStyles>
+        </div>
     )
 }
 
