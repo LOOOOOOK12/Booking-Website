@@ -1,17 +1,18 @@
 import React from 'react'
-import HomeSection2Styles from '../../Styles/SectionsStyles/HomeSectionsStyles/HomeSection2Styles'
 import HotelsContainer from '../../Components/HotelsContainer'
 import { Hotels } from '../../Constants/Hotels/Hotels'
 
 function HomeSection2() {
     return (
-        <HomeSection2Styles>
-            <div className='Text2'>
-                <h2>Hotels</h2>
-                <hr />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+        <div className='px-24 py-20'>
+            <div className='w-[30rem] mb-12'>
+                <h2 className='mb-4 text-5xl font-semibold text-Rich-Black'>Hotels</h2>
+                <hr className='bg-Rich-Black h-0.5'/>
+                <p className='mt-4 text-Grey font-light text-2xl'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                </p>
             </div>
-            <div className='hotel-Front-Container'>
+            <div className='flex gap-12 '>
                 {Hotels.map((infos,idx) =>(
                     <div className='Hotels' key={idx}>
                         <HotelsContainer
@@ -23,12 +24,11 @@ function HomeSection2() {
                             service={infos.service}
                             bed={infos.bed}
                             person={infos.person}
-                            style={infos.style}
                         />
                     </div>
                         ))}
                     </div>
-        </HomeSection2Styles>
+        </div>
     )
 }
 

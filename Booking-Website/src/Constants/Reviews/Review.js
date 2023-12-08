@@ -3,7 +3,7 @@ import hitori from '../../assets/Reviews/Bocchi.jpg'
 import kita from '../../assets/Reviews/kita.jpg'
 import ryo from'../../assets/Reviews/ryo.jpg'
 import nijika from '../../assets/Reviews/nijika.jpg'
-import styles from '../../Styles/Containers-Styles/reviewsContainerStyles'
+// import styles from '../../Styles/Containers-Styles/reviewsContainerStyles'
 
 export const Reviews = [
     {
@@ -13,7 +13,7 @@ export const Reviews = [
         profilePic:hitori,
         customerName:"Hitori Gotoh",
         role: "Guitarist",
-        style: styles
+        
     },
     {
         spot: location,
@@ -22,7 +22,7 @@ export const Reviews = [
         profilePic:kita,
         customerName:"Kita Ikuyo",
         role: "Guitarist/Singer",
-        style: styles
+        
     },
     {
         spot: location,
@@ -30,8 +30,7 @@ export const Reviews = [
         comment:`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"`,
         profilePic:ryo,
         customerName:"Ryo Yamada",
-        role: "Bassist",
-        style: styles
+        role: "Bassist",  
     },
     {
         spot: location,
@@ -40,6 +39,5 @@ export const Reviews = [
         profilePic:nijika,
         customerName:"Nijika Icihji",
         role: "Drummer",
-        style: styles
     }
 ]

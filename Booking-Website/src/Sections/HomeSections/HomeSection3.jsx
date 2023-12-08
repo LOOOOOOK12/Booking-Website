@@ -4,7 +4,7 @@ import ReviewsContainer from '../../Components/ReviewsContainer'
 import { Reviews } from '../../Constants/Reviews/Review'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectFade, Autoplay } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/autoplay';
