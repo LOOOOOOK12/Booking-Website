@@ -1,5 +1,5 @@
 import hotelImage from '../../assets/Hotels/pexels-amelia-hallsworth-5461604.jpg'
-import hotelsContainerStyles from '../../Styles/Containers-Styles/hotelsContainerStyles'
+
 
 export const Hotels = [
     {
@@ -10,8 +10,7 @@ export const Hotels = [
         wifi: "Free Wifi",
         service: "Breakfast, Lunch Dinner",
         bed: "2 Bed",
-        person: "Good for 2",
-        style: hotelsContainerStyles
+        person: "Good for 2"
     },
     {
         image: hotelImage,
@@ -20,8 +19,7 @@ export const Hotels = [
         wifi: "Free Wifi",
         service: "Breakfast, Lunch Dinner",
         bed: "1 Bed",
-        person: "Good for 2",
-        style: hotelsContainerStyles
+        person: "Good for 2"
     },
     {
         image: hotelImage,
@@ -30,7 +28,6 @@ export const Hotels = [
         wifi: "Free Wifi",
         service: "Breakfast, Lunch Dinner",
         bed: "1 Bed",
-        person: "Good for 2",
-        style: hotelsContainerStyles
+        person: "Good for 2"
     },
 ]

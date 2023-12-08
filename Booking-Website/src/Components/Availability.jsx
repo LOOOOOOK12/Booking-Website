@@ -15,7 +15,7 @@ function Availability() {
                     </div>
                     <p>Kyoto</p>            
                 </div> 
-                <div className='h-20 w-0.5 bg-[#0D1321]'></div>
+                <div className='h-20 w-0.5 bg-Rich-Black'></div>
                     <div className='flex flex-col'>
                         <div className='flex gap-2 items-center my-3'>
                             <img src={person} alt="person" className='h-6' />
@@ -23,7 +23,7 @@ function Availability() {
                         </div>
                             <p>03</p>
                     </div>
-                <div className='h-20 w-0.5 bg-[#0D1321]'></div>
+                <div className='h-20 w-0.5 bg-Rich-Black'></div>
                     <div className='flex flex-col'>
                         <div className='flex gap-2 items-center my-3'>
                             <img src={calendar} alt="calendar" className='h-6'/>
@@ -31,7 +31,7 @@ function Availability() {
                         </div>
                         <p>May 12, 2023</p>
                     </div>
-                <div className='h-20 w-0.5 bg-[#0D1321]'></div>
+                <div className='h-20 w-0.5 bg-Rich-Black'></div>
                     <div className='flex flex-col'>
                         <div className='flex gap-2 items-center my-3'>
                             <img src={calendar} alt="calendar" className='h-6' />
@@ -39,7 +39,7 @@ function Availability() {
                         </div>
                     <p>May 25, 2023</p>
                 </div>
-                <Link to="/Book"><button className='text-lg text-sky-50 font-light rounded py-5 px-6 bg-[#0D1321]'> Check Availability</button></Link>
+                <Link to="/Book"><button className='text-lg text-Puti font-light rounded py-5 px-6 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-75'> Check Availability</button></Link>
             </div>
         </div>
     )
