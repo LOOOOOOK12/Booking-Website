@@ -4,27 +4,27 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
-        <div className='h-52 flex flex-col justify-evenly items-center bg-Prussian-Blue '>
+        <div className='p-6 flex flex-col justify-evenly items-center gap-4 bg-Prussian-Blue text-Puti '>
             <div className='w-full h-full flex justify-evenly'>
-                <div className='Contacts'>
-                    <h2>Contacts</h2>
-                    <li>lobot</li>
-                    <li>lobot</li>
-                    <li>lobot</li>
+                <div className='text-center'>
+                    <h2 className='mb-4 font-semibold text-2xl'>Contacts</h2>
+                    <p>lobot</p>
+                    <p>lobot</p>
+                    <p>lobot</p>
                 </div>
-                <div className='Menu'>
-                    <h2>Menu</h2>
-                    <Link to="/Home" className='Links'><li>Home</li></Link>
-                    <Link to="/About" className='Links'><li>About Us</li></Link>
-                    <Link to="/Blogs" className='Links'><li>Blogs</li></Link>
-                    <Link to="/Services" className='Links'><li>Services</li></Link>
-                    <Link to="/Contacts" className='Links'><li>Contacts</li></Link> 
+                <div className='text-center'>
+                    <h2 className='mb-4 font-semibold text-2xl'>Menu</h2>
+                    <Link to="/Home" className='Links'><p>Home</p></Link>
+                    <Link to="/About" className='Links'><p>About Us</p></Link>
+                    <Link to="/Blogs" className='Links'><p>Blogs</p></Link>
+                    <Link to="/Services" className='Links'><p>Services</p></Link>
+                    <Link to="/Contacts" className='Links'><p>Contacts</p></Link> 
                 </div>
-                <div className='Media'>
-                    <h2>Media</h2>
-                    <li>lobot</li>
-                    <li>lobot</li>
-                    <li>lobot</li>
+                <div className='text-center'>
+                    <h2 className='mb-4 font-semibold text-2xl'>Media</h2>
+                    <p>lobot</p>
+                    <p>lobot</p>
+                    <p>lobot</p>
                 </div>
             </div>
             <p>Made with ❤︎‬ by Luke Symon Alamil</p>

@@ -27,7 +27,7 @@ function AboutSection2() {
                     </div>
                 </div>
             </div>
-            <img src={Image2} alt=""  className='h-[35rem] w-[35rem] rounded-md'/>
+            <img src={Image2} alt=""  className='h-[27rem] w-[35rem] rounded-md'/>
         </div>
     )
 }

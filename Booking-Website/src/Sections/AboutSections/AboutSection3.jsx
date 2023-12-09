@@ -11,7 +11,7 @@ function AboutSection3() {
                     sed do eiusmod tempor incididunt ut labore”s
                 </p>
             </div>
-            <img src={bed} alt="" className='h-[34rem] w-[35rem] rounded-md'/>
+            <img src={bed} alt="" className='h-[27rem] w-[30rem] rounded-md'/>
         </div>
     )
 }
