@@ -19,7 +19,6 @@ function HomeSection3() {
             }}
             loop
             className='h-full w-full'>
-
             {Reviews.map((comments, idx)=>(
                     <SwiperSlide key={idx}>
                         <ReviewsContainer

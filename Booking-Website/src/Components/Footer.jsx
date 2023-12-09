@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
-        <FooterStyles>
-            <div className='Footer-Container'>
+        <div className='h-52 flex flex-col justify-evenly items-center bg-Prussian-Blue '>
+            <div className='w-full h-full flex justify-evenly'>
                 <div className='Contacts'>
                     <h2>Contacts</h2>
                     <li>lobot</li>
@@ -28,7 +28,7 @@ function Footer() {
                 </div>
             </div>
             <p>Made with ❤︎‬ by Luke Symon Alamil</p>
-        </FooterStyles>
+        </div>
     )
 }
 
