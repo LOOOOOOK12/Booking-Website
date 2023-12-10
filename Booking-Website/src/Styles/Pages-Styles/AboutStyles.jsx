@@ -23,10 +23,6 @@ const AboutStyles = styled.div`
         width: 50%;
     }
 
-    h1{
-        color: black;
-    }
-
     .Container p{
         font-weight: 100;
         margin: 0;
