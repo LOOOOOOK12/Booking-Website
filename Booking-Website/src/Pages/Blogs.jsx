@@ -1,17 +1,21 @@
 import React from 'react'
 import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
+import Blogsbg from '../assets/Blogs/City.jpg'
+import Availability from '../Components/Availability'
+import BlogSection1 from '../Sections/BlogsSections/BlogSection1'
 
 
 function Blogs() {
     return (
         <>
             <NavBar/>
-                <div className='h-screen flex items-center justify-center'>
-                    <div className='Container'>
-                        <h1>Blogs Page</h1>
-                    </div>
-                </div> 
+                <div className="h-[90vh] relative flex items-center justify-center">
+                    <img src={Blogsbg} alt="" className='absolute brightness-50 h-full w-full object-cover -z-10' />             
+                    <h1 className='text-7xl font-semibold text-Puti'>Our <span className=' text-Prussian-Blue'>Blogs</span></h1>
+                </div>
+                <Availability/>
+                <BlogSection1/> 
             <Footer/>
         </>
     )
