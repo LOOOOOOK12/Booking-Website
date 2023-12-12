@@ -4,6 +4,7 @@ import Footer from '../Components/Footer'
 import Blogsbg from '../assets/Blogs/City.jpg'
 import Availability from '../Components/Availability'
 import BlogSection1 from '../Sections/BlogsSections/BlogSection1'
+import BlogSection2 from '../Sections/BlogsSections/BlogSection2'
 
 
 function Blogs() {
@@ -16,6 +17,7 @@ function Blogs() {
                 </div>
                 <Availability/>
                 <BlogSection1/> 
+                <BlogSection2/>
             <Footer/>
         </>
     )
