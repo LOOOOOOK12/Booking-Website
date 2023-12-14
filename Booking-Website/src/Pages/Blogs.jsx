@@ -5,7 +5,7 @@ import Blogsbg from '../assets/Blogs/City.jpg'
 import Availability from '../Components/Availability'
 import BlogSection1 from '../Sections/BlogsSections/BlogSection1'
 import BlogSection2 from '../Sections/BlogsSections/BlogSection2'
-
+import BlogSection3 from '../Sections/BlogsSections/BlogsSection3'
 
 function Blogs() {
     return (
@@ -18,6 +18,7 @@ function Blogs() {
                 <Availability/>
                 <BlogSection1/> 
                 <BlogSection2/>
+                <BlogSection3/>
             <Footer/>
         </>
     )
