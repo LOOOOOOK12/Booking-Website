@@ -5,9 +5,9 @@ function ReviewsContainer({spot, alt, comment, profilePic, customerName, role}){
     return (
         <div className='flex flex-col px-24 py-20'>
             <div className = 'w-2/4'>
-                    <h2 className='text-Rich-Black text-4xl font-semibold mb-4'>Travelers Reviews</h2>
-                    <hr className=' bg-Rich-Black h-0.5 w-3/5 '/>
-                </div>
+                <h2 className='text-Rich-Black text-4xl font-semibold mb-4'>Travelers Reviews</h2>
+                <hr className=' bg-Rich-Black h-0.5 w-3/5 '/>
+            </div>
             <div className='flex flex-row items-center justify-center'>
                 <div className='comment-Text'>
                     <p className='text-3xl text-Grey mt-12 mr-16 font-light'>{comment}</p>
@@ -20,8 +20,7 @@ function ReviewsContainer({spot, alt, comment, profilePic, customerName, role}){
                     </div>
                 </div>
                 <img src={spot} alt={alt} className='h-96 rounded-md'/>
-            </div>
-            
+            </div>   
         </div>
     )
 }
