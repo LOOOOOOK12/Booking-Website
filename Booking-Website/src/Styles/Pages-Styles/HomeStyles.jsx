@@ -10,7 +10,7 @@ const HomeStyles = styled.div`
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url("src/assets/Home/pexels-arkkrapol-anantachote-1571746.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url("src/assets/Home/pexels-arkkrapol-anantachote-1571746.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -34,7 +34,7 @@ const HomeStyles = styled.div`
     }
 
     .span1{
-        color: #1D2D44;
+        color: #748CAB;
     }
 
     .Container p{
