@@ -4,21 +4,25 @@ export const BlogsCollections = [
     {
         image: Pics,
         alt: "Gate",
-        blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore" 
+        header: "Lorem Ipsum",
+        blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit," 
     },
     {
         image: Pics,
         alt: "Gate",
-        blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore" 
+        header: "Lorem Ipsum",
+        blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit," 
     },
     {
         image: Pics,
         alt: "Gate",
-        blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore" 
+        header: "Lorem Ipsum",
+        blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit," 
     },
     {
         image: Pics,
         alt: "Gate",
-        blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore" 
+        header: "Lorem Ipsum",
+        blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit," 
     }
 ]
