@@ -1,7 +1,6 @@
 import React from 'react'
 import ReviewsContainer from '../../Components/ReviewsContainer'
 import { Reviews } from '../../Constants/Reviews/Review'
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
