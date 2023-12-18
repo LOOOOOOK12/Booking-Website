@@ -23,6 +23,7 @@ function BlogSection2() {
                         <BlogsContainer
                             image= {blog.image}
                             alt={blog.alt}
+                            header={blog.header}
                             blogs={blog.blogs}
                         />
                     </SwiperSlide>
