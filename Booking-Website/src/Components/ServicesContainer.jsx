@@ -1,11 +1,13 @@
 import React from 'react'
 
-function ServicesContainer(img, alt, head, paragraph) {
+function ServicesContainer({img, alt, head, paragraph}) {
     return (
-        <div className='flex flex-col py-12 px-12'>
-            <img src={img} alt={alt} />
-            <h1>{head}</h1>
-            <p>{paragraph}</p>
+        <div className='px-6 py-6 flex flex-col items-center justify-center gap-12 bg-Grey-2 rounded-md'>
+            <img src={img} alt={alt} className='rounded-md h-6 w-6'/>
+            <div className=' flex flex-col gap-5 text-left'>
+                <h1 className='text-3xl text-Rich-Black'>{head}</h1>
+                <p className='text-Grey'>{paragraph}</p>
+            </div>
         </div>
     )
 }
