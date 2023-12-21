@@ -1,18 +1,20 @@
-export const Reviews = [
+import p from '../../assets/Wide/hallway.jpg'
+
+export const servicesData = [
     {
-        img:"image",
+        img: p,
         alt: "image ki",
         head:"lorem Ipsum",
         paragraph:"lorem ipsum ausdnasdnhsadvj,shabduhsabdua"
     },
     {
-        img:"image",
+        img: p,
         alt: "image ki",
         head:"lorem Ipsum",
         paragraph:"lorem ipsum ausdnasdnhsadvj,shabduhsabdua"
     },
     {
-        img:"image",
+        img: p,
         alt: "image ki",
         head:"lorem Ipsum",
         paragraph:"lorem ipsum ausdnasdnhsadvj,shabduhsabdua"
