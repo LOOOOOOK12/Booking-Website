@@ -26,8 +26,8 @@ function HomeSection2() {
                             person={infos.person}
                         />
                     </div>
-                        ))}
-                    </div>
+                ))}
+            </div>
         </div>
     )
 }
