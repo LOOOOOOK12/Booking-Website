@@ -1,22 +1,23 @@
 import p from '../../assets/Wide/hallway.jpg'
+import logo from '../../assets/ServicesPic/icon.png'
 
 export const servicesData = [
     {
-        img: p,
+        img: logo,
         alt: "image ki",
-        head:"lorem Ipsum",
-        paragraph:"lorem ipsum ausdnasdnhsadvj,shabduhsabdua"
+        head:"Lorem Ipsum",
+        paragraph:"“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"
     },
     {
-        img: p,
+        img: logo,
         alt: "image ki",
-        head:"lorem Ipsum",
-        paragraph:"lorem ipsum ausdnasdnhsadvj,shabduhsabdua"
+        head:"Lorem Ipsum",
+        paragraph:"“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"
     },
     {
-        img: p,
+        img: logo,
         alt: "image ki",
-        head:"lorem Ipsum",
-        paragraph:"lorem ipsum ausdnasdnhsadvj,shabduhsabdua"
+        head:"Lorem Ipsum",
+        paragraph:"“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"
     }
 ]
