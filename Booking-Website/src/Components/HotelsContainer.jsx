@@ -15,7 +15,7 @@ function HotelsContainer({image, alt, hotelName, cost, wifi, service, bed, perso
                 <p>{service}</p>
                 <p>{bed}</p>
                 <p>{person}</p>
-                <button className='px-11 py-4 text-2xl font-light bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-75 text-Puti rounded-md'>Check</button>
+                <button className='px-11 py-4 text-2xl font-light bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 text-Puti rounded-md'>Check</button>
             </div>
         </div>
     )
