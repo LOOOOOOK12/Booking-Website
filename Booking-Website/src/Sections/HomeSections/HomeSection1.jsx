@@ -11,7 +11,7 @@ function HomeSection1() {
                 <p className='text-Grey text-2xl mt-3.5 font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>
-                <button className='mt-6 px-11 py-6 text-Puti text-lg font-light bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-75 rounded-md'>Read More</button>
+                <button className='mt-6 px-11 py-6 text-Puti text-lg font-light bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 rounded-md'>Read More</button>
             </div>
         </div>
     )
