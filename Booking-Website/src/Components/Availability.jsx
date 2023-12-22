@@ -39,7 +39,7 @@ function Availability() {
                         </div>
                     <p>May 25, 2023</p>
                 </div>
-                <Link to="/Book"><button className='text-lg text-Puti font-light rounded py-5 px-6 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-75'> Check Availability</button></Link>
+                <Link to="/Book"><button className='text-lg text-Puti font-light rounded py-5 px-6 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100'> Check Availability</button></Link>
             </div>
         </div>
     )
