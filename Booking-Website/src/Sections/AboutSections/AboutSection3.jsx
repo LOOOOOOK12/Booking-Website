@@ -7,7 +7,7 @@ function AboutSection3() {
             <div className='flex flex-col w-1/2'>
                 <h1 className='text-5xl font-semibold mb-4'>Our vision</h1>
                 <hr className='mb-4 h-0.5 w-2/3 bg-Rich-Black'/>
-                <p className='text-3xl text-Grey'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                <p className='text-2xl text-Grey'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore”s
                 </p>
             </div>
