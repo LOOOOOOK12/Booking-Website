@@ -1,23 +1,26 @@
 import p from '../../assets/Wide/hallway.jpg'
 import logo from '../../assets/ServicesPic/icon.png'
+import restaurant from '../../assets/ServicesPic/restaurant.png'
+import bed from '../../assets/ServicesPic/bed.png'
+import wrench from '../../assets/ServicesPic/wrench.png'
 
 export const servicesData = [
     {
-        img: logo,
-        alt: "image ki",
-        head:"Lorem Ipsum",
+        img: restaurant,
+        alt: "Food",
+        head:"Food",
         paragraph:"“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"
     },
     {
-        img: logo,
+        img: bed,
         alt: "image ki",
-        head:"Lorem Ipsum",
+        head:"Bed",
         paragraph:"“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"
     },
     {
-        img: logo,
+        img: wrench,
         alt: "image ki",
-        head:"Lorem Ipsum",
+        head:"Settings",
         paragraph:"“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"
     }
 ]
