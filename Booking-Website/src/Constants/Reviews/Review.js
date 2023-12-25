@@ -4,6 +4,10 @@ import kita from '../../assets/Reviews/kita.jpg'
 import ryo from'../../assets/Reviews/ryo.jpg'
 import nijika from '../../assets/Reviews/nijika.jpg'
 import kikuri from '../../assets/Reviews/kikuri.jpg'
+import gold from '../../assets/Reviews/gold.jpg'
+import shinto from '../../assets/Reviews/shinto.jpg'
+import wheel from '../../assets/Reviews/wheel.jpg'
+import bridge from '../../assets/Reviews/bridge.jpg'
 
 export const Reviews = [
     {
@@ -16,7 +20,7 @@ export const Reviews = [
         
     },
     {
-        spot: location,
+        spot: gold,
         alt:"alt",
         comment:`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"`,
         profilePic:kita,
@@ -25,7 +29,7 @@ export const Reviews = [
         
     },
     {
-        spot: location,
+        spot: shinto,
         alt:"alt",
         comment:`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"`,
         profilePic:ryo,
@@ -33,7 +37,7 @@ export const Reviews = [
         role: "Bassist",  
     },
     {
-        spot: location,
+        spot: wheel,
         alt:"alt",
         comment:`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"`,
         profilePic:nijika,
@@ -41,7 +45,7 @@ export const Reviews = [
         role: "Drummer",
     },
     {
-        spot: location,
+        spot: bridge,
         alt:"alt",
         comment:`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"`,
         profilePic:kikuri,
