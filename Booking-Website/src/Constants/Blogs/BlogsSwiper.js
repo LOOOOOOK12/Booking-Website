@@ -1,15 +1,19 @@
 import Pics from '../../assets/Blogs/City.jpg'
-import bocchi1 from '../../assets/Reviews/Bocchi.jpg'
+import tower from '../../assets/Blogs/tower.jpg'
+import street from '../../assets/Blogs/street.jpg'
+import castle from '../../assets/Blogs/castle.jpg'
+import street2 from '../../assets/Blogs/street2.jpg'
+import food from '../../assets/Blogs/food.jpg'
 
 export const BlogsSwiper = [
         {
-            image: Pics,
+            image: street,
             alt: "Gate",
             header: "Lobot Ipsum",
             blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"  
         },
         {
-            image: bocchi1,
+            image: castle,
             alt: "Gate",
             header: "Lorem Ipsum",
             blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"  
@@ -21,19 +25,19 @@ export const BlogsSwiper = [
             blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"  
         },
         {
-            image: Pics,
+            image: street2,
             alt: "Gate",
             header: "Lorem Ipsum",
             blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"  
         },
         {
-            image: bocchi1,
+            image: food,
             alt: "Gate",
             header: "Lorem Ipsum",
             blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"  
         },
         {
-            image: Pics,
+            image: tower,
             alt: "Gate",
             header: "Lorem Ipsum",
             blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”"  
