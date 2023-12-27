@@ -1,7 +1,7 @@
 import React from 'react'
-import down from '../assets/ServicesPic/arrow-down.png'
 
-function ServicesContainer2({logo, alt, head, objective}) {
+
+function ServicesContainer2({logo, alt, head, objective, arrow}) {
     return (
         <div className='mb-16 flex flex-col justify-center items-center'>
             <div className='mb-6 flex flex-col items-center justify-center gap-5 text-center'>
@@ -9,7 +9,7 @@ function ServicesContainer2({logo, alt, head, objective}) {
                 <h1 className='text-3xl font-semibold text-Rich-Black'>{head}</h1>
                 <p className='text-Grey'>{objective}</p>
             </div>
-            <img src={down} alt="arrow" />
+            <img src={arrow} alt="arrow" />
         </div>
     )
     }
