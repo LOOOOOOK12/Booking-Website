@@ -3,7 +3,7 @@ import Image1 from '../../assets/Home/pexels-evgeny-tchebotarev-2187604.jpg'
 
 function HomeSection1() {
     return (
-        <div className='pt-20 px-24 h-screen flex items-center justify-center gap-20'>
+        <div className='pt-24 px-24 lg:flex items-center justify-center gap-20'>
             <img src={Image1} alt="Image 1" className='h-[29rem] w-[35rem] rounded-md' />
             <div className='flex-col'>
                 <h2 className='mb-4 text-[50px] font-semibold'>Lorem Ipsum</h2>

@@ -3,7 +3,7 @@ import Image2 from '../../assets/Availability/japaneseWahmen.jpg'
 
 function AboutSection2() {
     return (
-        <div className=' px-16 py-20 flex items-center justify-between gap-20'>
+        <div className='px-16 py-20 flex flex-col items-center gap-16 md:flex md:flex-row md:justify-center'>
             <div className='w-2/4'>
                 <div>
                     <h1 className='text-5xl font-semibold mb-4'>Our Mission</h1>
@@ -27,7 +27,7 @@ function AboutSection2() {
                     </div>
                 </div>
             </div>
-            <img src={Image2} alt=""  className='h-[32rem] w-[35rem] rounded-md'/>
+            <img src={Image2} alt="pic"  className='h-[25rem] w-[25rem] md:h-[25rem] md:w-[30rem] rounded-md '/>
         </div>
     )
 }
