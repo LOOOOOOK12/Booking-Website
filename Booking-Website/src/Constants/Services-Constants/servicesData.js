@@ -1,5 +1,3 @@
-import p from '../../assets/Wide/hallway.jpg'
-import logo from '../../assets/ServicesPic/icon.png'
 import restaurant from '../../assets/ServicesPic/restaurant.png'
 import bed from '../../assets/ServicesPic/bed.png'
 import wrench from '../../assets/ServicesPic/wrench.png'
