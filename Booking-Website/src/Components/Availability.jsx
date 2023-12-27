@@ -6,7 +6,7 @@ import person from '../assets/Availability/person.png'
 
 function Availability() {
     return (
-        <div className='relative flex w-full items-center justify-center max-[1024px]:hidden '>
+        <div className='relative flex w-full items-center justify-center max-[955px]:hidden '>
             <div className='absolute flex items-center justify-center gap-8 py-4 px-10 rounded-lg bg-[#F0EBD8] '>
                 <div className='flex flex-col'>
                     <div className='flex gap-2 items-center my-3'>

@@ -8,7 +8,7 @@ function AboutSection1() {
                     sed do eiusmod tempor incididunt ut labore”
                 </h1>
             </div>
-            <div className='flex items-center justify-center gap-16 pt-20'>
+            <div className='pt-20 flex flex-col items-center gap-16 md:flex md:flex-row md:items-center md:justify-center md:gap-16 md:pt-20'>
                 <div className='w-1/2 text-left'>
                     <h1 className='font-semibold text-5xl mb-4 text-Rich-Black'>Our Story</h1>
                     <hr className='h-0.5 mb-4 w-3/6 bg-Rich-Black'/>
