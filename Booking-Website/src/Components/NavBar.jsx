@@ -20,7 +20,7 @@ function NavBar() {
                     <Link to="/Contacts" className={`text-Rich-Black mr-12 ${isActive("/Contacts") && 'font-bold'}`}>Contacts</Link>
                 </ul>
                     <Link to="/Book" className='Links'>
-                        <button className='text-Puti px-6 py-3 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 font-light rounded-md'>Book Now</button>
+                        <button className='text-Puti px-6 py-3 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 font-light rounded-md max-[1024px]:hidden'>Book Now</button>
                     </Link>
             </nav>
         </div>

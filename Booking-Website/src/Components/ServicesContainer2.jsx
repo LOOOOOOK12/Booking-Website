@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 function ServicesContainer2({logo, alt, head, objective, arrow}) {
     return (
         <div className='mb-16 flex flex-col justify-center items-center'>
@@ -9,7 +8,7 @@ function ServicesContainer2({logo, alt, head, objective, arrow}) {
                 <h1 className='text-3xl font-semibold text-Rich-Black'>{head}</h1>
                 <p className='text-Grey'>{objective}</p>
             </div>
-            <img src={arrow} alt="arrow" />
+            <img src={arrow} />
         </div>
     )
     }
