@@ -4,7 +4,7 @@ import Image1 from '../../assets/Home/pexels-evgeny-tchebotarev-2187604.jpg'
 function HomeSection1() {
     return (
         <div className='pt-24 px-24 md:flex md:items-center md:justify-center md:gap-20'>
-            <img src={Image1} alt="Image 1" className='h-[29rem] w-[31rem] rounded-md' />
+            <img src={Image1} alt="Image 1" className='h-[29rem] w-[31qrem] rounded-md' />
             <div className='flex-col w-full'>
                 <div className='w-2/3'>
                     <h2 className='mb-4 text-5xl text-Rich-Black font-semibold'>Lorem Ipsum</h2>
