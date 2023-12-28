@@ -8,7 +8,7 @@ import 'swiper/css';
 
 function BlogSection2() {
     return (
-        <div className='flex items-center justify-center py-20 px-24'>
+        <div className='flex items-center justify-center py-20 px-16'>
             <Swiper  
             modules={[FreeMode]}
             slidesPerView={3}
@@ -16,16 +16,30 @@ function BlogSection2() {
                 enabled: true,
                 momentum: true
             }}
+            breakpoints={{
+                    425: {
+                        slidesPerView: 1,
+                    },
+                    640: {
+                        slidesPerView: 2, 
+                    },
+                    768: {
+                        slidesPerView: 3, 
+                    },
+                }}
             loop
-            className='h-full w-full'>
+            className='h-full w-full flex justify-center items-center'
+            >
                 {BlogsSwiper.map((blog,idx)=>(
                     <SwiperSlide key={idx}>
-                        <BlogsContainer
-                            image= {blog.image}
-                            alt={blog.alt}
-                            header={blog.header}
-                            blogs={blog.blogs}
-                        />
+                            <div className='mr-8'>
+                                <BlogsContainer
+                                    image= {blog.image}
+                                    alt={blog.alt}
+                                    header={blog.header}
+                                    blogs={blog.blogs}
+                                />
+                            </div>    
                     </SwiperSlide>
                 ))}
                 
