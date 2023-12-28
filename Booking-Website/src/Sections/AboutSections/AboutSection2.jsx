@@ -3,11 +3,13 @@ import Image2 from '../../assets/Availability/japaneseWahmen.jpg'
 
 function AboutSection2() {
     return (
-        <div className='px-16 py-20 flex flex-col items-center gap-16 md:flex md:flex-row md:justify-center'>
-            <div className='w-2/4'>
-                <div>
-                    <h1 className='text-5xl font-semibold mb-4'>Our Mission</h1>
-                    <hr className='mb-4 h-0.5 w-2/3 bg-Rich-Black'/>
+        <div className='px-16 py-20 flex flex-col gap-16 md:flex md:flex-row md:justify-center md:items-center'>
+            <div className='w-full md:w-2/4'>
+                <div className='w-full'>
+                    <div className='flex flex-col'>
+                        <h1 className='text-5xl font-semibold mb-4'>Our Mission</h1>
+                        <hr className='mb-4 h-0.5 w-full bg-Rich-Black'/>
+                    </div>
                     <p className='text-2xl text-Grey'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore”
                     </p>
