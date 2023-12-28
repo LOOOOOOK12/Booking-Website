@@ -3,7 +3,7 @@ import React from 'react'
 function ReviewsContainer({spot, alt, comment, profilePic, customerName, role}){
 
     return (
-        <div className='flex flex-col px-24 py-20 gap-6'>
+        <div className='flex flex-col px-16 py-20 gap-6'>
             <div className = 'md:w-2/4'>
                 <h2 className='text-Rich-Black text-5xl font-semibold mb-4'>Travelers Reviews</h2>
                 <hr className=' bg-Rich-Black h-0.5 w-3/4 '/>

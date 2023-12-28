@@ -10,7 +10,7 @@ function NavBar() {
 
     return (
         <div className=' w-full'>
-            <nav className='h-16 w-full top-0 z-10 fixed flex justify-evenly items-center text-center bg-Bonay'>
+            <nav className='px-16 p-4 w-full top-0 z-10 fixed flex justify-between items-center text-center bg-Bonay'>
                 <Link to="/Home" className='text-3xl'><h1>LOGO</h1></Link>
                 <ul className='flex flex-row'>
                     <Link to="/Home" className={`text-Rich-Black mr-12 ${isActive("/Home") && 'font-bold'}`}>Home</Link>
@@ -20,7 +20,7 @@ function NavBar() {
                     <Link to="/Contacts" className={`text-Rich-Black mr-12 ${isActive("/Contacts") && 'font-bold'}`}>Contacts</Link>
                 </ul>
                     <Link to="/Book" className='Links'>
-                        <button className='text-Puti px-6 py-3 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 font-light rounded-md max-[1024px]:hidden'>Book Now</button>
+                        <button className='text-Puti px-6 py-3 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 font-light rounded-md max-[860px]:hidden'>Book Now</button>
                     </Link>
             </nav>
         </div>
