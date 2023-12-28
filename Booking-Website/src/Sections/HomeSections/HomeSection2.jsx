@@ -4,7 +4,7 @@ import { Hotels } from '../../Constants/Hotels/Hotels'
 
 function HomeSection2() {
     return (
-        <div className='px-24 py-20'>
+        <div className='px-16 py-20'>
             <div className='w-[30rem] mb-12'>
                 <div className='w-2/3'>
                     <h2 className='mb-4 text-5xl text-Rich-Black font-semibold'>Hotel</h2>
