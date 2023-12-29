@@ -3,7 +3,7 @@ import Image2 from '../../assets/Availability/japaneseWahmen.jpg'
 
 function AboutSection2() {
     return (
-        <div className='px-16 py-20 flex flex-col gap-16 md:flex md:flex-row md:justify-center md:items-center'>
+        <div className='px-16 py-20 flex flex-col gap-16 justify-center md:flex md:flex-row md:justify-center md:items-center'>
             <div className='w-full md:w-2/4'>
                 <div className='w-full'>
                     <div className='flex flex-col'>
