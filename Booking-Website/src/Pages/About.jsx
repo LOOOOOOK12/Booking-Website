@@ -17,9 +17,6 @@ function About() {
             <div className='Container'>
                 <div className="hero">
                     <h1 className='AboutUs'>About <span className='span1'>Us</span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p> 
                 </div>
             </div>
             <Availability/>
