@@ -12,7 +12,7 @@ function NavBar() {
         <div className=' w-full'>
             <nav className='px-16 p-4 w-full top-0 z-10 fixed flex justify-between items-center text-center bg-Bonay'>
                 <Link to="/Home" className='text-3xl'><h1>LOGO</h1></Link>
-                <ul className='flex flex-row'>
+                <ul className='hidden sm:flex sm:flex-row'>
                     <Link to="/Home" className={`text-Rich-Black mr-12 ${isActive("/Home") && 'font-bold'}`}>Home</Link>
                     <Link to="/About" className={`text-Rich-Black mr-12 ${isActive("/About") && 'font-bold'}`}>About Us</Link>
                     <Link to="/Blogs" className={`text-Rich-Black mr-12 ${isActive("/Blogs") && 'font-bold'}`}>Blogs</Link>
