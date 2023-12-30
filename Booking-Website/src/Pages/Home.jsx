@@ -14,9 +14,6 @@ function Home() {
                 <div className='Container'>
                     <div className="hero">
                         <h1 className='Japan'>Beautiful <span className='span1'>Japan</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        </p> 
                     </div>
                 </div>
                 <Availability/>
