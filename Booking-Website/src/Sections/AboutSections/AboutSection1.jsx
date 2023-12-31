@@ -10,7 +10,7 @@ function AboutSection1() {
             </div>
             <div className='pt-20 flex flex-col items-center gap-16 w-full md:flex md:flex-row md:items-center md:justify-center md:gap-16 md:pt-20'>
                 <div className='w-full text-left md:w-1/2'>
-                    <div className='w-8/12'> 
+                    <div className='w-1/2'> 
                         <h1 className='font-semibold text-5xl mb-4 text-Rich-Black'>Our Story</h1>
                         <hr className='h-0.5 mb-4 w-full bg-Rich-Black'/>
                     </div>
