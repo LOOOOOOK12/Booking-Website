@@ -7,7 +7,7 @@ function AboutSection2() {
             <div className='flex flex-col w-full'>
                 <div className='w-full'>
                     <div className='flex flex-col w-1/2'>
-                        <h1 className='text-5xl font-semibold bg-Rich-Black mb-4'>Our Mission</h1>
+                        <h1 className='text-5xl font-semibold text-Rich-Black mb-4'>Our Mission</h1>
                         <hr className='mb-4 h-0.5 w-full bg-Rich-Black'/>
                     </div>
                     <p className='text-2xl text-Grey'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
