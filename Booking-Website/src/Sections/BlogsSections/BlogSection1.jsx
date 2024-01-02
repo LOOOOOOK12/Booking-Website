@@ -11,7 +11,7 @@ function BlogSection1() {
                 </div>
                 <p className='text-2xl text-Grey'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”</p>        
             </div>
-            <img src={Shrine} alt="Shrine" className='w-[37rem] h-[40rem] rounded-md'/>
+            <img src={Shrine} alt="Shrine" className='w-[35rem] h-[40rem] rounded-md'/>
         </div>
     )
 }
