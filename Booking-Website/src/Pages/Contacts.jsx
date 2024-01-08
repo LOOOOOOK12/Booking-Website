@@ -4,6 +4,7 @@ import Footer from '../Components/Footer'
 import Availability from '../Components/Availability'
 import ContactsBg from '../assets/Contacts/ContactsBg.jpg'
 import ContactsSection1 from '../Sections/ContactsSections/ContactsSection1'
+import ContactsSection2 from '../Sections/ContactsSections/ContactsSection2'
 
 function Contacts() {
     return (
@@ -15,6 +16,7 @@ function Contacts() {
                 </div>
                 <Availability/> 
                 <ContactsSection1/>
+                <ContactsSection2/>
             <Footer/>
         </>
     )
