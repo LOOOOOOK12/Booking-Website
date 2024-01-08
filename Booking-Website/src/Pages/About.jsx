@@ -11,6 +11,9 @@ import Hallway from '../assets/Wide/hallway.jpg'
 import Shinto from '../assets/Wide/Shinto.jpg'
 
 function About() {
+
+    
+
     return (
         <AboutStyles>
             <NavBar/>
