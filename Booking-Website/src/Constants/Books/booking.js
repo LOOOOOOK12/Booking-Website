@@ -5,42 +5,42 @@ export const booking = [
         image:Hallway,
         alt:"alt",
         header:"loak",
-        description:"lorem",
-        price: "2pesos"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+        price: "$150 per night"
     },
     {
         image:Hallway,
         alt:"alt",
         header:"loak",
-        description:"lorems",
-        price: "2pesos"
+        description:"lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+        price: "$150 per night"
     },
     {
         image:Hallway,
         alt:"alt",
         header:"loak",
-        description:"lorem",
-        price: "2pesos"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+        price: "$150 per night"
     },
     {
         image:Hallway,
         alt:"alt",
         header:"loak",
-        description:"lorem",
-        price: "2pesos"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+        price: "$150 per night"
     },
     {
         image:Hallway,
         alt:"alt",
         header:"loak",
-        description:"lorems",
-        price: "2pesos"
+        description:"lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+        price: "$150 per night"
     },
     {
         image:Hallway,
         alt:"alt",
         header:"loak",
-        description:"lorem",
-        price: "2pesos"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+        price: "$150 per night"
     }
 ]
