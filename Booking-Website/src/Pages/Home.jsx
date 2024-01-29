@@ -13,7 +13,7 @@ function Home() {
             <NavBar/>
                 <div className='Container'>
                     <div className="hero">
-                        <h1 className='Japan'>Beautiful <span className='span1'>Japan</span></h1>
+                        <h1 className='Japan'>Welcome</h1>
                     </div>
                 </div>
                 <Availability/>
