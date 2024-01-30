@@ -3,12 +3,12 @@ import React from 'react'
 function ContactsSection1() {
     return (
         <div className='py-20 px-16 flex flex-col gap-8 md:flex-row items-center justify-between'>
-            <form className='flex flex-col'>
-                <label  className='mb-3 text-Rich-Black text-2xl'>Enter Name:</label>
+            <form className='flex flex-col gap-3'>
+                <label  className='text-Rich-Black text-xl'>Enter Name:</label>
                 <input type="text" className='p-2 bg-Puti border-Prussian-Blue border-2' />
-                <label className='mb-3 text-Rich-Black text-2xl'>Enter Email:</label>
+                <label className='text-Rich-Black text-xl'>Enter Email:</label>
                 <input type="email" className='p-2 bg-Puti border-Prussian-Blue border-2'/>
-                <label className='mb-3  text-Rich-Black text-2xl'>Send a Message:</label>
+                <label className=' text-Rich-Black text-xl'>Send a Message:</label>
                 <textarea disabled cols="30" rows="10" className='py-2 bg-Puti border-Prussian-Blue border-2's/>
             </form>
             <div className=''>
