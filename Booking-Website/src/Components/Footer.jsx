@@ -5,13 +5,13 @@ function Footer() {
     return (
         <div className='p-6 flex flex-col justify-evenly items-center gap-4 bg-Prussian-Blue text-Puti '>
             <div className='w-full h-full flex justify-evenly'>
-                <div className='text-center'>
+                <div className='justify-start'>
                     <h2 className='mb-4 font-semibold text-2xl'>Contacts</h2>
                     <p>Lorem</p>
                     <p>Lorem</p>
                     <p>Lorem</p>
                 </div>
-                <div className='text-center'>
+                <div className='justify-start'>
                     <h2 className='mb-4 font-semibold text-2xl'>Menu</h2>
                     <Link to="/Home" className='Links'><p>Home</p></Link>
                     <Link to="/About" className='Links'><p>About Us</p></Link>
@@ -19,7 +19,7 @@ function Footer() {
                     <Link to="/Services" className='Links'><p>Services</p></Link>
                     <Link to="/Contacts" className='Links'><p>Contacts</p></Link> 
                 </div>
-                <div className='text-center'>
+                <div className='justify-start'>
                     <h2 className='mb-4 font-semibold text-2xl'>Media</h2>
                     <p>Lorem</p>
                     <p>Lorem</p>
