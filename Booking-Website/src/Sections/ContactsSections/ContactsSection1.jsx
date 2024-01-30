@@ -5,11 +5,11 @@ function ContactsSection1() {
         <div className='py-20 px-16 flex flex-col gap-8 md:flex-row items-center justify-between'>
             <form className='flex flex-col gap-3'>
                 <label  className='text-Rich-Black text-xl'>Enter Name:</label>
-                <input type="text" className='p-2 bg-Puti border-Prussian-Blue border-2' />
+                <input type="text" className='p-2 bg-Puti border-Prussian-Blue border-2 rounded-md' />
                 <label className='text-Rich-Black text-xl'>Enter Email:</label>
-                <input type="email" className='p-2 bg-Puti border-Prussian-Blue border-2'/>
+                <input type="email" className='p-2 bg-Puti border-Prussian-Blue border-2 rounded-md'/>
                 <label className=' text-Rich-Black text-xl'>Send a Message:</label>
-                <textarea disabled cols="30" rows="10" className='py-2 bg-Puti border-Prussian-Blue border-2's/>
+                <textarea disabled cols="30" rows="10" className='py-2 bg-Puti rounded-md border-Prussian-Blue border-2's/>
             </form>
             <div className=''>
                 <h1 className='mb-5 text-Rich-Black text-5xl font-semibold'>Message Us!</h1>
