@@ -7,9 +7,9 @@ function Footer() {
             <div className='w-full h-full flex justify-evenly'>
                 <div className='text-center'>
                     <h2 className='mb-4 font-semibold text-2xl'>Contacts</h2>
-                    <p>lobot</p>
-                    <p>lobot</p>
-                    <p>lobot</p>
+                    <p>Lorem</p>
+                    <p>Lorem</p>
+                    <p>Lorem</p>
                 </div>
                 <div className='text-center'>
                     <h2 className='mb-4 font-semibold text-2xl'>Menu</h2>
@@ -21,9 +21,9 @@ function Footer() {
                 </div>
                 <div className='text-center'>
                     <h2 className='mb-4 font-semibold text-2xl'>Media</h2>
-                    <p>lobot</p>
-                    <p>lobot</p>
-                    <p>lobot</p>
+                    <p>Lorem</p>
+                    <p>Lorem</p>
+                    <p>Lorem</p>
                 </div>
             </div>
             <p>Made with ❤︎‬ by Luke Symon Alamil</p>
