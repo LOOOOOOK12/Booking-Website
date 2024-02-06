@@ -9,6 +9,7 @@ function ServicesSection3() {
                 {servicesData3.map((G)=>(
                     <ServicesGridContainer
                         logos = {G.logos}
+                        header = {G.header}
                         desc = {G.desc}
                     />
                 ))}
