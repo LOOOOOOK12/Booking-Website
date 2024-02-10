@@ -1,5 +1,6 @@
 import React from 'react'
 import Blogsbg from '../assets/Blogs/City.jpg'
+import Availability from '../Components/Availability'
 import BookSection1 from '../Sections/BookSection/BookSection1'
 import BookSEction2 from '../Sections/BookSection/BookSEction2'
 import NavBar from '../Components/NavBar'
@@ -13,6 +14,7 @@ function Book() {
                     <img src={Blogsbg} alt="" className='absolute brightness-50 h-full w-full object-cover -z-10' />             
                     <h1 className='text-Silver-Lake-Blue text-7xl font-semibold'>Booking</h1>
                 </div>
+                <Availability/>
                 <BookSection1/>
                 <BookSEction2/>
             <Footer/>
