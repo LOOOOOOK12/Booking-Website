@@ -12,7 +12,7 @@ function BookSection1() {
     }
 
     return (
-        <div className='py-20 px-16 flex flex-col gap-8 '>
+        <div className='py-24 px-16 flex flex-col gap-20 '>
             <div className='flex flex-col gap-8'>
                 <h1 className='text-Rich-Black text-3xl font-semibold'>Total Booked: {count}</h1>
                 <h1 className='text-Rich-Black text-3xl font-semibold'>Total available Hotels: {booking.length}</h1>
