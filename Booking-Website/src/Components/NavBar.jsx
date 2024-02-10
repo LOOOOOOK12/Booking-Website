@@ -13,11 +13,11 @@ function NavBar() {
             <nav className='px-16 p-4 w-full top-0 z-10 fixed flex justify-between items-center text-center bg-Bonay'>
                 <Link to="/Home" className='text-3xl'><h1>LOGO</h1></Link>
                 <ul className='hidden sm:flex sm:flex-row'>
-                    <Link to="/Home" className={`text-Rich-Black mr-12 ${isActive("/Home") && 'font-bold'}`}>Home</Link>
-                    <Link to="/About" className={`text-Rich-Black mr-12 ${isActive("/About") && 'font-bold'}`}>About Us</Link>
-                    <Link to="/Blogs" className={`text-Rich-Black mr-12 ${isActive("/Blogs") && 'font-bold'}`}>Blogs</Link>
-                    <Link to="/Services" className={`text-Rich-Black mr-12 ${isActive("/Services") && 'font-bold'}`}>Services</Link>
-                    <Link to="/Contacts" className={`text-Rich-Black mr-12 ${isActive("/Contacts") && 'font-bold'}`}>Contacts</Link>
+                    <Link to="/Home" className={`text-Rich-Black font-semibold mr-12 ${isActive("/Home") && 'font-extrabold'}`}>Home</Link>
+                    <Link to="/About" className={`text-Rich-Black font-semibold mr-12 ${isActive("/About") && 'font-extrabold'}`}>About Us</Link>
+                    <Link to="/Blogs" className={`text-Rich-Black font-semibold mr-12 ${isActive("/Blogs") && 'font-extrabold'}`}>Blogs</Link>
+                    <Link to="/Services" className={`text-Rich-Black font-semibold mr-12 ${isActive("/Services") && 'font-extrabold'}`}>Services</Link>
+                    <Link to="/Contacts" className={`text-Rich-Black font-semibold mr-12 ${isActive("/Contacts") && 'font-extrabold'}`}>Contacts</Link>
                 </ul>
                     <Link to="/Book" className='Links'>
                         <button className='text-Puti px-6 py-3 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 font-light rounded-md max-[860px]:hidden'>Book Now</button>
