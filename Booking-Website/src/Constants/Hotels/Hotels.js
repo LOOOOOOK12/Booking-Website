@@ -5,7 +5,7 @@ export const Hotels = [
     {
         image: hotelImage,
         alt: "image",
-        hotelName: "Trivago",
+        hotelName: "Cali Inn",
         cost: "$150 per night",
         wifi: "Free Wifi",
         service: "Breakfast, Lunch Dinner",
@@ -14,7 +14,7 @@ export const Hotels = [
     },
     {
         image: hotelImage,
-        hotelName: "Trivago",
+        hotelName: "TripInn",
         cost: "$150 per night",
         wifi: "Free Wifi",
         service: "Breakfast, Lunch Dinner",
@@ -23,7 +23,7 @@ export const Hotels = [
     },
     {
         image: hotelImage,
-        hotelName: "Trivago",
+        hotelName: "The Oriental",
         cost: "$150 per night",
         wifi: "Free Wifi",
         service: "Breakfast, Lunch Dinner",
