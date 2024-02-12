@@ -8,8 +8,8 @@ function HotelsContainer({image, alt, hotelName, cost, wifi, service, bed, perso
             <div className='w-full'>
                 <img src={image} alt={alt} className='h-full w-full rounded-md'/>
             </div>   
-            <div className='flex flex-col'>
-                <div className='HotelName'>
+            <div className='flex flex-col gap-5'>
+                <div className=''>
                     <h3 className='text-Rich-Black text-4xl font-semibold mb-6'>{hotelName}</h3>
                     <hr className='bg-Rich-Black h-0.5'/>
                 </div>
