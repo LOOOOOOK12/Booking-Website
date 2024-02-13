@@ -9,7 +9,7 @@ export const BlogsSwiper = [
         {
             image: street,
             alt: "Gate",
-            header: "Lobot Ipsum",
+            header: "Lorem Ipsum",
             blogs: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"  
         },
         {
