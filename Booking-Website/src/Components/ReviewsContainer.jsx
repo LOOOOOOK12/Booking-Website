@@ -10,7 +10,7 @@ function ReviewsContainer({spot, alt, comment, profilePic, customerName, role}){
             </div>
             <div className='flex flex-col gap-16 md:flex md:flex-row md:items-center md:justify-center md:gap-12'>
                 <div className='flex flex-col w-3/4'>
-                    <p className='text-2xl text-Grey font-light'>{comment}</p>
+                    <p className='text-2xl text-Grey'>{comment}</p>
                     <div className='mt-12 flex items-center gap-8'>
                         <img src={profilePic} className='h-20 rounded-full'/>
                         <div className='profile-Info'>
@@ -19,7 +19,7 @@ function ReviewsContainer({spot, alt, comment, profilePic, customerName, role}){
                         </div>
                     </div>
                 </div>
-                <div className='w-full h-full'>
+                <div className='h-[350px] w-[750px]'>
                     <img src={spot} alt={alt} className='h-full w-full rounded-md'/>
                 </div>
             </div>   
