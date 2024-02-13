@@ -13,14 +13,14 @@ function HotelsContainer({image, alt, hotelName, cost, wifi, service, bed, perso
                     <h3 className='text-Rich-Black text-4xl font-semibold mb-6'>{hotelName}</h3>
                     <hr className='bg-Rich-Black h-0.5'/>
                 </div>
-                <div className='flex flex-col gap-5 text-Grey font-light'>
+                <div className='flex flex-col gap-5 text-Grey text-xl'>
                     <p>{cost}</p>
                     <p>{wifi}</p>
                     <p>{service}</p>
                     <p>{bed}</p>
                     <p>{person}</p>
                     <Link to="/Book">
-                        <button className='px-11 py-4 text-2xl font-light bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 text-Puti rounded-md'>
+                        <button className='px-11 py-4 text-2xl font-semibold bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 text-Puti rounded-md'>
                             Check
                         </button>
                     </Link>
