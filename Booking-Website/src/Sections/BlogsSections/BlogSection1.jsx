@@ -9,7 +9,9 @@ function BlogSection1() {
                     <h2 className='h-full text-5xl font-semibold mb-4 text-Rich-Black'>Nippon Sugoi</h2>
                     <hr className='mb-4 h-0.5 w-full bg-Rich-Black'/>
                 </div>
-                <p className='text-2xl text-Grey'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”</p>        
+                <p className='text-2xl text-Grey'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore”
+                </p>        
             </div>
             <img src={Shrine} alt="Shrine" className='w-[35rem] h-[40rem] rounded-md'/>
         </div>
