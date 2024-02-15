@@ -1,5 +1,8 @@
 import React from 'react'
 import BookContainer from '../../Components/bookContainer'
+import DropDown from '../../Components/dropDown'
+import Date from '../../Components/Date'
+import { dropDown } from '../../Constants/Books/dropDown'
 import { booking } from '../../Constants/Books/booking'
 import { useState } from 'react'
 
@@ -13,6 +16,16 @@ function BookSection1() {
 
     return (
         <div className='py-24 px-16 flex flex-col gap-20 '>
+            <div className='flex justify-between'>
+                {dropDown.map((B)=>(
+                    <DropDown
+                        title={B.title}
+                        collection={B.collection}
+                    />
+                ))}
+                <Date title="Check-In"/>
+                <Date title="Check-Out"/>
+            </div>
             <div className='flex flex-col gap-8'>
                 <h1 className='text-Rich-Black text-3xl font-semibold'>Total Booked: {count}</h1>
                 <h1 className='text-Rich-Black text-3xl font-semibold'>Total available Hotels: {booking.length}</h1>
