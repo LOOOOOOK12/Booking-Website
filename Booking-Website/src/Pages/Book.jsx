@@ -14,7 +14,6 @@ function Book() {
                     <img src={Blogsbg} alt="" className='absolute brightness-50 h-full w-full object-cover -z-10' />             
                     <h1 className='text-Silver-Lake-Blue text-7xl font-semibold'>Booking</h1>
                 </div>
-                <Availability/>
                 <BookSection1/>
                 <BookSEction2/>
             <Footer/>
