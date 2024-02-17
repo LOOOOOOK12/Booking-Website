@@ -16,7 +16,7 @@ function BookSection1() {
 
     return (
         <div className='py-24 px-16 flex flex-col gap-20 '>
-            <div className='flex justify-between'>
+            <div className='flex flex-col justify-center items-center md:flex-row md:justify-between  gap-5'>
                 {dropDown.map((B)=>(
                     <DropDown
                         title={B.title}
@@ -31,17 +31,18 @@ function BookSection1() {
                 <h1 className='text-Rich-Black text-3xl font-semibold'>Total available Hotels: {booking.length}</h1>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                {booking.map((B) =>(
-                    <BookContainer
-                        count = {book}
-                        visitors={B.visitors}
-                        image = {B.image}
-                        alt = {B.alt}
-                        header = {B.header}
-                        price = {B.price}
-                        description = {B.description}
-                    />
-                ))}
+            {booking.slice(0, 6).map((B, index) => (
+                <BookContainer
+                    key={index}
+                    count={book}
+                    visitors={B.visitors}
+                    image={B.image}
+                    alt={B.alt}
+                    header={B.header}
+                    price={B.price}
+                    description={B.description}
+                />
+            ))}
             </div>
         </div>
     )
