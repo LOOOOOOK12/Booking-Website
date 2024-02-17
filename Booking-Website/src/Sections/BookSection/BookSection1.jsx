@@ -15,7 +15,7 @@ function BookSection1() {
     }
 
     return (
-        <div className='py-24 px-16 flex flex-col gap-20 '>
+        <div className='py-32 px-16 flex flex-col gap-20 '>
             <div className='flex flex-col justify-center items-center md:flex-row md:justify-between  gap-5'>
                 {dropDown.map((B)=>(
                     <DropDown
