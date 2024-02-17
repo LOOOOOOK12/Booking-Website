@@ -4,7 +4,7 @@ export const booking = [
     {
         image:Hallway,
         alt:"alt",
-        header:"Hotel Name",
+        header:"Calli Inn",
         description:"Legazpi City, Albay ",
         visitors:"(1000 visitors)",
         price: "$150 per night"
@@ -12,7 +12,7 @@ export const booking = [
     {
         image:Hallway,
         alt:"alt",
-        header:"Hotel Name",
+        header:"The Oriental",
         description:"Legazpi City, Albay ",
         visitors:"(1000 visitors)",
         price: "$150 per night"
@@ -20,7 +20,7 @@ export const booking = [
     {
         image:Hallway,
         alt:"alt",
-        header:"Hotel Name",
+        header:"Hotel Sogo",
         description:"Legazpi City, Albay ",
         visitors:"(1000 visitors)",
         price: "$150 per night"
@@ -28,7 +28,7 @@ export const booking = [
     {
         image:Hallway,
         alt:"alt",
-        header:"Hotel Name",
+        header:"Chili Inn",
         description:"Legazpi City, Albay ",
         visitors:"(1000 visitors)",
         price: "$150 per night"
@@ -36,7 +36,7 @@ export const booking = [
     {
         image:Hallway,
         alt:"alt",
-        header:"Hotel Name",
+        header:"Sunrise Inn",
         description:"lLegazpi City, Albay ",
         visitors:"(1000 visitors)",
         price: "$150 per night"
@@ -44,9 +44,25 @@ export const booking = [
     {
         image:Hallway,
         alt:"alt",
-        header:"Hotel Name",
+        header:"Casablanca Hotel",
         description:"Legazpi City, Albay ",
         visitors:"(1000)",
         price: "$150 per night"
-    }
+    },
+    {
+        image:Hallway,
+        alt:"alt",
+        header:"Park Inn",
+        description:"Legazpi City, Albay ",
+        visitors:"(1000)",
+        price: "$150 per night"
+    },
+    {
+        image:Hallway,
+        alt:"alt",
+        header:"Trip Inn",
+        description:"Legazpi City, Albay ",
+        visitors:"(1000)",
+        price: "$150 per night"
+    },
 ]
