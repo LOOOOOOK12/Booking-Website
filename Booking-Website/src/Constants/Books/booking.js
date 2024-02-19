@@ -65,4 +65,20 @@ export const booking = [
         visitors:"(1000)",
         price: "$150 per night"
     },
+    {
+        image:Hallway,
+        alt:"alt",
+        header:"Trip Inn",
+        description:"Legazpi City, Albay ",
+        visitors:"(1000)",
+        price: "$150 per night"
+    },
+    {
+        image:Hallway,
+        alt:"alt",
+        header:"Trip Inn",
+        description:"Legazpi City, Albay ",
+        visitors:"(1000)",
+        price: "$150 per night"
+    },
 ]
