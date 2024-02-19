@@ -15,8 +15,8 @@ function BookSection1() {
     }
 
     return (
-        <div className='py-32 px-16 flex flex-col gap-20 '>
-            <div className='flex flex-col justify-center items-center md:flex-row md:justify-between  gap-5'>
+        <div className='py-32 px-16 flex flex-col gap-20'>
+            <div className='flex flex-col justify-center items-center md:flex-row md:justify-between gap-5'>
                 {dropDown.map((B)=>(
                     <DropDown
                         title={B.title}
@@ -25,6 +25,7 @@ function BookSection1() {
                 ))}
                 <Date title="Check-In"/>
                 <Date title="Check-Out"/>
+                <button className='text-Puti px-6 py-3 bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 font-semibold rounded-md'>Book</button>
             </div>
             <div className='flex flex-col gap-8'>
                 <h1 className='text-Rich-Black text-3xl font-semibold'>Total Booked: {count}</h1>
