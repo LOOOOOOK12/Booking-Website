@@ -8,7 +8,7 @@ function BlogsSection3() {
         <div className='py-20 px-16 flex flex-col gap-10 md:flex md:flex-row md:gap-10'>
             <div className='flex flex-col md:flex md:flex-col md:w-2/3'>
                 <img src={BlogPic1} alt="" className='md:h-[30rem] md:w-[35rem] rounded-md'/>
-                    <div className='flex flex-col w-3/5'>
+                    <div className='flex flex-col'>
                         <h1 className='mb-4 mt-4 text-3xl md:text-5xl font-semibold text-Rich-Black' >Lorem Ipsum</h1>
                         <hr className='mb-4 w-full h-0.5 bg-Rich-Black ' />
                     </div>   
