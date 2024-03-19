@@ -1,13 +1,16 @@
 import React from 'react'
+import FB from '../assets/Footer/fb.png'
+import Maps from '../assets/Footer/maps.png'
+import X from '../assets/Footer/x.png'
 import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
-        <div className='p-6 flex flex-col justify-evenly items-center gap-5 bg-Prussian-Blue text-Puti '>
+        <div className='p-6 flex flex-col justify-evenly items-center gap-10 bg-Prussian-Blue text-Puti '>
             <div className='w-full h-full flex justify-evenly'>
                 <div className='justify-start flex flex-col gap-2'>
                     <h2 className='mb-4 font-semibold text-2xl'>Contacts</h2>
-                    <p>Webiste.com</p>
+                    <p>JohnDoe.com</p>
                     <p>Website@gmail.com</p>
                     <p>Employees</p>
                 </div>
@@ -21,9 +24,20 @@ function Footer() {
                 </div>
                 <div className='justify-start flex flex-col gap-2'>
                     <h2 className='mb-4 font-semibold text-2xl'>Media</h2>
-                    <p>Website.twitter</p>
-                    <p>Facebook</p>
-                    <p>Maps</p>
+                    <div className='flex items-center gap-5'>
+                        <img src={X} alt="" />
+                        <p>Website.twitter</p>
+                    </div>
+                    <div className='flex items-center gap-5'>
+                        <img src={FB} alt="" />
+                        <p>Facebook</p>
+                    </div>
+                    <div className='flex items-center gap-5'>
+                        <a href="https://looooook.netlify.app" target='_blank'>
+                            <img src={Maps} alt="" />
+                        </a>
+                        <p>Maps</p>
+                    </div>
                 </div>
             </div>
             <p>Made with ❤︎‬ by Luke Symon Alamil</p>
