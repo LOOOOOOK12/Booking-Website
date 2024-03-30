@@ -6,19 +6,19 @@ import Mechanical from '../../assets/Contacts/Mechanical.png'
 function ContactsSection2() {
     return (
         <div className='py-20 px-16 flex flex-col justify-between items-center gap-10 md:flex-row md:items-start'>
-            <div className='flex flex-col'>
-                <div className='flex gap-10 items-center'>
+            <div className='flex flex-col items-center'>
+                <div className='flex justify-center items-center'>
                     <img src={ComputerSupport} alt="Technical Support" />
                     <h1 className=' text-Rich-Black text-3xl font-semibold mb-5'>Technical Support</h1>
                 </div>
                 <div className='flex flex-col gap-3'>
-                    <p>AMchine Learning</p>
+                    <p>Machine Learning</p>
                     <p>Bard</p>
                     <p>Viktor</p>
                     <p>Jayce Lighthammer</p>
                 </div>
             </div>
-            <div className='flex flex-col'>
+            <div className='flex flex-col items-center'>
                 <div className='flex gap-10 items-center'>
                     <img src={Mechanical} alt="MEchanical Support" />
                     <h1 className=' text-Rich-Black text-3xl font-semibold mb-5'>Mechanical Support</h1>
@@ -30,7 +30,7 @@ function ContactsSection2() {
                     <p>Zac Tabudlo</p>
                 </div>
             </div>
-            <div className='flex flex-col'>
+            <div className='flex flex-col items-center'>
                 <div className='flex gap-10 items-center'>
                     <img src={Accounts} alt="Support" />
                     <h1 className=' text-Rich-Black text-3xl font-semibold mb-5'>Support</h1>
