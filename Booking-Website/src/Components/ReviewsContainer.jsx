@@ -19,7 +19,7 @@ function ReviewsContainer({spot, alt, comment, profilePic, customerName, role}){
                         </div>
                     </div>
                 </div>
-                <div className='h-[350px] w-[750px]'>
+                <div className='md:h-[350px] md:w-[750px]'>
                     <img src={spot} alt={alt} className='h-full w-full rounded-md'/>
                 </div>
             </div>   
