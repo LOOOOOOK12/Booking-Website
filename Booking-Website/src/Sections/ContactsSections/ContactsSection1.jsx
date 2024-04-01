@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactsSection1() {
     return (
-        <div className='py-20 px-16 flex flex-col gap-8 md:flex-row items-center justify-between'>
+        <div className='py-32 px-16 flex flex-col gap-8 md:flex-row items-center justify-between'>
             <form className='flex flex-col gap-3 w-3/5'>
                 <label  className='text-Rich-Black text-xl'>Enter Name:</label>
                 <input type="text" className='p-2 bg-Puti border-Prussian-Blue border-2 rounded-md' />
