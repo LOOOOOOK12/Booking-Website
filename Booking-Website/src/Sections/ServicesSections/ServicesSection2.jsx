@@ -4,7 +4,7 @@ import { servicesData2 } from '../../Constants/Services-Constants/servicesData2'
 
 function ServicesSection2() {
     return (
-        <div className='px-16 py-28 flex flex-col items-center justify-center'>
+        <div className='px-16 flex flex-col items-center justify-center'>
             <h1 className='mb-16 text-5xl text-Rich-Black font-bold w-full text-center'>How We Work</h1>
             <div className=' flex flex-col'>
                 {servicesData2.map((s)=>(
