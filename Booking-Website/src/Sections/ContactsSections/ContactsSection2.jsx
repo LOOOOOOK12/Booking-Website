@@ -5,7 +5,7 @@ import Accounts from '../../assets/Contacts/cuss.png'
 
 function ContactsSection2() {
     return (
-        <div className='py-20 px-16 flex flex-col justify-between items-center gap-10 md:flex-row md:items-start'>
+        <div className='py-20 px-16 flex flex-col justify-between items-center gap-6 md:flex-row md:items-start'>
             <div className='flex flex-col gap-3 items-center'>
                 <div className='flex justify-center gap-3 items-center'>
                     <img src={computerSupport} alt="Technical Support" />
