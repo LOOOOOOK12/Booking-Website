@@ -1,7 +1,7 @@
 import location from '../../assets/Reviews/pexels-colon-freld-2373201.jpg'
 import hitori from '../../assets/Reviews/Bocchi.jpg'
 import kita from '../../assets/Reviews/kita.jpg'
-import ryo from'../../assets/Reviews/ryo.jpg'
+import ryo from'../../assets/Reviews/Ryo.jpg'
 import nijika from '../../assets/Reviews/nijika.jpg'
 import kikuri from '../../assets/Reviews/kikuri.jpg'
 import gold from '../../assets/Reviews/gold.jpg'
