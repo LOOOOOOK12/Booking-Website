@@ -1,7 +1,7 @@
 import React from 'react'
 import FB from '../assets/Footer/fb.png'
 import Maps from '../assets/Footer/maps.png'
-import X from '../assets/Footer/X.png'
+import Twitter from '../assets/Footer/twitter.png'
 import {Link} from 'react-router-dom'
 
 function Footer() {
@@ -25,7 +25,7 @@ function Footer() {
                 <div className='items-center m-5 md:justify-start flex flex-col gap-2'>
                     <h2 className='mb-4 font-semibold text-2xl'>Media</h2>
                     <div className='flex items-center gap-5'>
-                        <img src={X} alt="" />
+                        <img src={Twitter} alt="" />
                         <p>Website.twitter</p>
                     </div>
                     <div className='flex items-center gap-5'>
