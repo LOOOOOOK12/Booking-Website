@@ -1,7 +1,7 @@
 import React from 'react'
 import FB from '../assets/Footer/fb.png'
 import Maps from '../assets/Footer/maps.png'
-import X from '../assets/Footer/x.png'
+import X from '../assets/Footer/X.png'
 import {Link} from 'react-router-dom'
 
 function Footer() {
