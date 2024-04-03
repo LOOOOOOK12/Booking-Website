@@ -9,7 +9,7 @@ function Book() {
         <>
             <NavBar/>
                 <div className="h-[90vh] relative flex items-center justify-center">
-                    <img src={street} alt="japan streets" className='absolute brightness-50 h-[110vh] w-full object-cover -z-10' />             
+                    <img src={street} alt="japan streets" className='absolute brightness-[.2] h-[110vh] w-full object-cover -z-10' />             
                     <h1 className='text-Silver-Lake-Blue text-7xl font-semibold'>Booking</h1>
                 </div>
                 <BookSection1/>
