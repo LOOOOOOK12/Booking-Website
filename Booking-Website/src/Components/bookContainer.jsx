@@ -3,7 +3,7 @@ import React from 'react'
 function bookContainer({image, alt, header, price, description, visitors, count}) {
 
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col bg-Grey-2 p-6 rounded-3xl'>
             <img src={image} alt={alt} className='rounded-3xl mb-5'/>
             <div className='flex flex-col items-start gap-4'>
                 <h1 className='text-4xl text-Rich-Black font-semibold'>{header}</h1>
@@ -13,7 +13,7 @@ function bookContainer({image, alt, header, price, description, visitors, count}
                     <p className='text-xl text-Rich-Black'>{visitors}</p>
                 </div>
                 <button 
-                    className='text-Puti text-2xl px-6 py-5 w-full bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 font-semibold rounded-md'
+                    className='text-Puti text-2xl px-6 py-5 w-full bg-Rich-Black hover:bg-Prussian-Blue ease-in duration-100 font-semibold rounded-xl'
                     onClick={count}
                     >
                         Book
