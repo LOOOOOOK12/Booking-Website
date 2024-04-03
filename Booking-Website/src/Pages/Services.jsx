@@ -12,7 +12,7 @@ function Services() {
         <>
             <NavBar/>
                 <div className="h-[90vh] relative flex items-center justify-center">
-                    <img src={ServicesBG} alt="" className='absolute brightness-50 h-full w-full object-cover -z-10' />             
+                    <img src={ServicesBG} alt="" className='absolute brightness-[.4] h-full w-full object-cover -z-10' />             
                     <h1 className='text-7xl font-semibold text-Puti'><span className='text-Silver-Lake-Blue'>Services</span></h1>
                 </div>
                 <Availability/>
