@@ -16,7 +16,7 @@ function BookSection1() {
 
     return (
         <div className='py-32 px-16 flex flex-col gap-20'>
-            <div className='flex flex-col justify-center items-center md:flex-row md:justify-between'>
+            <div className='flex flex-col justify-center items-center md:flex-row md:justify-evenly'>
                 {dropDown.map((B)=>(
                     <DropDown
                         title={B.title}
