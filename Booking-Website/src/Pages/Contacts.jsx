@@ -11,7 +11,7 @@ function Contacts() {
         <>
             <NavBar/>
                 <div className="h-[90vh] relative flex items-center justify-center">
-                    <img src={ContactsBg} alt="" className='absolute brightness-50 h-full w-full object-cover -z-10' />             
+                    <img src={ContactsBg} alt="" className='absolute brightness-[.3] h-full w-full object-cover -z-10' />             
                     <h1 className='text-7xl font-semibold text-Puti'><span className='text-Silver-Lake-Blue'>Contacts</span></h1>
                 </div>
                 <Availability/> 
