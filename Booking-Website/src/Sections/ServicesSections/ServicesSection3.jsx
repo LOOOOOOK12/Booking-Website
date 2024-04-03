@@ -1,4 +1,4 @@
-import ServicesGridContainer from "../../Components/servicesGridContainer"
+import ServicesGridContainer from "../../Components/ServicesGridContainer"
 import { servicesData3 } from "../../Constants/Services-Constants/servicesData3"
 
 function ServicesSection3() {
