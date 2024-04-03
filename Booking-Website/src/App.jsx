@@ -5,7 +5,7 @@ import Contacts from './Pages/Contacts'
 import Blogs from './Pages/Blogs'
 import Services from './Pages/Services'
 import About from './Pages/About'
-import './App.css'
+import './app.css'
 import "./index.css";
 
 function App() {
