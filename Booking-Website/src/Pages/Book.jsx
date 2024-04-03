@@ -1,7 +1,6 @@
 import React from 'react'
 import street from '../assets/Book/street.jpg'
 import BookSection1 from '../Sections/BookSection/BookSection1'
-import BookSEction2 from '../Sections/BookSection/BookSEction2'
 import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
 
@@ -14,7 +13,6 @@ function Book() {
                     <h1 className='text-Silver-Lake-Blue text-7xl font-semibold'>Booking</h1>
                 </div>
                 <BookSection1/>
-                <BookSEction2/>
             <Footer/>
         </>
         
